@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     
   </head>
   <body>
@@ -181,20 +182,15 @@
       </div>
 
     
-    <footer class="site-footer">
-      <div class="container">
-        
-        <div class="row text-center">
-          <div class="col-md-12">
-            <p>
-
-            Copyright &copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All Rights Reserved | glorylifecity.church <i class="" aria-hidden="true"></i> by <a href="https://tsatsu.me" target="_blank" >tsatsu</a>
-            
-            </p>
-          </div>
-          
+      <footer class="footer">
+        <div class="copyright-wrap" style="background-color: #677294;">
+            <div class="container">
+                <div class="copyright-inner" >
+                    <p class="copyright-text">© Copyright <span id="fullYearCopyright"></span> Glorylifecity</p>
+                </div>
+            </div>
+            <!--// .container //-->
         </div>
-      </div>
     </footer>
   </div>
 
@@ -234,6 +230,13 @@
                 }
             });
     </script>
+
+
+     <script>
+      let fullYearCopyright = document.getElementById('fullYearCopyright');
+      let getFullYearDate   = new Date().getFullYear();
+      fullYearCopyright.innerHTML= getFullYearDate;
+  </script>
 
   </body>
 </html>
