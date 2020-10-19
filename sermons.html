@@ -25,6 +25,19 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+      @media screen and (max-width: 960px) {
+        .top-gap {
+        height: 113px !important;
+      }
+      }
+      .top-gap {
+        height: 50px;
+      }
+    </style>
     
   </head>
   <body>
@@ -101,10 +114,15 @@
       </div>
     </div>
   
-    <div style="height: 113px;"></div>
+    <div class="top-gap"></div>
 
     <div class="site-section bg-light">
       <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+            <h2>Sermons</h2>
+          </div>
+        </div>
         <div class="row col-md-8" style="margin: auto;">
           <div class="col-12 text-center mb-3">
             <h3 class="h5"><span class="text-uppercase">&ldquo;Thy Kingdom Come&rdquo;</span> &mdash; <span class="small"><em>by</em> Pastor Edward Cane</span></h3>
@@ -174,16 +192,16 @@
 
       </div>
     </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <p>
-            Copyright &copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All Rights Reserved | This template is made with <i class="icon-heart text-warning" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            </p>
+    <footer class="footer">
+      <div class="copyright-wrap" style="background-color: #677294;">
+          <div class="container">
+              <div class="copyright-inner" >
+                  <p class="copyright-text">© Copyright <span id="fullYearCopyright"></span> Glorylifecity</p>
+              </div>
           </div>
-          
-        </div>
+          <!--// .container //-->
       </div>
-    </footer>
+  </footer>
   </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
