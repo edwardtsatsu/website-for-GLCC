@@ -1411,8 +1411,9 @@ a {
 
 .gallery img{
   transition: 1s;
-  padding: 15px;
+  padding: 10px;
   width: 300px;
+  
   
 }
 
