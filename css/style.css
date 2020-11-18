@@ -1420,7 +1420,7 @@ a {
   padding: 10px;
   width: 200px;
   height: 200px;
-  cursor: pointer;
+  /*cursor: pointer;*/
   
   
 }
@@ -1430,18 +1430,17 @@ a {
   transform: scale(1.1);
 }
 
-#lightbox {
+/*#lightbox {
   position: fixed;
   z-index: 1000;
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
   display: none;
   
 }
 
-#lightbox.active {
+/*#lightbox.active {
   display: flex;
   justify-content: center;
   align-items: center;
