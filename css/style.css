@@ -1411,7 +1411,8 @@ a {
   justify-content: center;
   align-content: center;
   height: 100vh;
-  margin: 10px 50px;
+  padding-top: 200px;
+  margin-bottom: 200px;
 }
 
 .grid img {
@@ -1419,8 +1420,6 @@ a {
   padding: 8px;
   width: 200px;
   height: 200px;
-
-  
 }
 
 .grid img:hover {
